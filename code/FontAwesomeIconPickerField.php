@@ -17,6 +17,7 @@ class FontAwesomeIconPickerField extends TextField {
         Requirements::css('//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css');
         Requirements::css('//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
         Requirements::css(FONTAWESOMEICONPICKER_DIR . '/code/thirdparty/fontawesome-iconpicker-1.0.0/dist/css/fontawesome-iconpicker.min.css');
+        Requirements::customCSS('* { box-sizing: content-box; }');
 
         Requirements::set_force_js_to_bottom(true);
         Requirements::javascript(FONTAWESOMEICONPICKER_DIR . '/code/thirdparty/fontawesome-iconpicker-1.0.0/dist/js/fontawesome-iconpicker.js');
