@@ -1,6 +1,10 @@
 # SilverStripe Font Awesome Icon Picker Field
 Font Awesome Icon Picker for SilverStripe 3.x based on http://mjolnic.com/fontawesome-iconpicker
 
+
+<iframe title="SilverStripe Font Awesome Icon Picker Field" width="420" height="315" src="https://www.youtube.com/embed/DwJhmhc9PRw" frameborder="0" allowfullscreen></iframe>
+
+
 Maintainer Contacts
 -------------------
 *  Darren-Lee Joseph `<darrenleejoseph (at) gmail (dot) com>`
