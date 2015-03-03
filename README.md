@@ -4,6 +4,7 @@ Font Awesome Icon Picker for SilverStripe 3.x based on http://mjolnic.com/fontaw
 
 <iframe title="SilverStripe Font Awesome Icon Picker Field" width="420" height="315" src="https://www.youtube.com/embed/DwJhmhc9PRw" frameborder="0" allowfullscreen></iframe>
 
+![SilverStripe Font Awesome Icon Picker Field](https://thisisbd.com/assets/silverstripe-fontawesome-iconpickerfield.png)
 
 Maintainer Contacts
 -------------------
