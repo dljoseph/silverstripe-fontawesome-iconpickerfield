@@ -55,4 +55,4 @@ In `getCMSFields` do this or something similar:
 
 Known Issues
 ------------
-There are no known issues.
+Currently unstable....not suitable for production as yet.
