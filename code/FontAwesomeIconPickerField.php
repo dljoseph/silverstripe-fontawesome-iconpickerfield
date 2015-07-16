@@ -13,25 +13,11 @@ class FontAwesomeIconPickerField extends TextField {
         Requirements::css("//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css");
         Requirements::css("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
         Requirements::css(FONTAWESOMEICONPICKER_DIR . '/code/thirdparty/fontawesome-iconpicker-1.0.0/dist/css/fontawesome-iconpicker.min.css');
-        Requirements::customCSS(<<<CSS
-            * {
-                -webkit-box-sizing: content-box;
-                -moz-box-sizing: content-box;
-                box-sizing: content-box;
-            }
-CSS
-
-        );
+	    Requirements::css(FONTAWESOMEICONPICKER_DIR . '/assets/setup-icon-picker.css');
 
         Requirements::set_force_js_to_bottom(true);
         Requirements::javascript(FONTAWESOMEICONPICKER_DIR . '/code/thirdparty/fontawesome-iconpicker-1.0.0/dist/js/fontawesome-iconpicker.min.js');
-
-        Requirements::customScript(<<<JS
-            jQuery(function() {
-                jQuery('.icp-auto').iconpicker();
-            });
-JS
-        );
+        Requirements::javascript(FONTAWESOMEICONPICKER_DIR . '/assets/setup-icon-picker.js');
 
         return parent::Field($properties);
     }
