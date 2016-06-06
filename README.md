@@ -57,6 +57,11 @@ In `getCMSFields` do this or something similar:
     }
 
 
+Frontend implementation
+------------
+Suggested is to always use the latest version of FontAwesome, as the module tries to get all the available icons from the FontAwesome YML file on Github.
+
+`<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/>`
 
 Known Issues
 ------------
