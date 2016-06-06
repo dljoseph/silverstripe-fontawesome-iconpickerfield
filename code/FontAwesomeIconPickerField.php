@@ -17,7 +17,7 @@ class FontAwesomeIconPickerField extends TextField {
 
         Requirements::set_force_js_to_bottom(true);
         Requirements::javascript(FONTAWESOMEICONPICKER_DIR . '/code/thirdparty/fontawesome-iconpicker-1.0.0/dist/js/fontawesome-iconpicker.js');
-        Requirements::javascript(FONTAWESOMEICONPICKER_DIR . '/code/thirdparty/dist/js-yaml.min.js');
+        Requirements::javascript(FONTAWESOMEICONPICKER_DIR . '/code/thirdparty/jsyaml/dist/js-yaml.min.js');
         Requirements::javascript(FONTAWESOMEICONPICKER_DIR . '/assets/setup-icon-picker.js');
 
         return parent::Field($properties);
